@@ -9,3 +9,7 @@ Then, read a existing namelist by `nml=namelist.read(filename)`.
 The returned parameter is `dict` type.
 The names of the outer nest is the namelist name, and the inner one is the name of the parameters.
 
+## Assumed Inputs
+`int`, `float`, `int-array`, `float-array`, `bool`, and `str` are available for the parameter types.
+
+
